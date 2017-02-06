@@ -1,0 +1,47 @@
+rules:
+  property-sort-order: 0
+  nesting-depth:
+    - 1
+    -
+      max-depth: 3
+  mixins-before-declarations:
+    - 2
+    -
+      exclude: ['media']
+  border-zero:
+    - 1
+    -
+      convention: none
+  no-color-literals: 0
+  pseudo-element: 0
+  force-element-nesting: 0
+  no-qualifying-elements:
+    - 1
+    -
+      allow-element-with-attribute: true
+  leading-zero:
+    - 1
+    -
+      include: true
+  no-css-comments: 0
+  class-name-format:
+    - 1
+    -
+      convention: hyphenatedbem
+  no-trailing-zero: 0
+  quotes:
+    - 1
+    -
+      style: double
+  no-vendor-prefixes:
+    - 1
+    -
+      ignore-non-standard: true
+  shorthand-values:
+    - 1
+    -
+      allowed-shorthands:
+        - 1
+        - 2
+  force-pseudo-nesting: 0
+  force-attribute-nesting: 0
